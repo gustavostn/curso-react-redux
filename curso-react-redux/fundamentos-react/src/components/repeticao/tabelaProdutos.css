@@ -1,0 +1,12 @@
+.tabelaPrdutos{
+    width: 100%;
+}
+
+.tabelaPrdutos th{
+    background-color: #131313;
+    color: #FFF;
+}
+
+.tabelaPrdutos .par {
+    background-color: #ccc;
+}
