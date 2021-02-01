@@ -12,13 +12,26 @@ import ParOuImpar from './components/condicional/parOuImpar'
 import UsuarioInfo from './components/condicional/usuarioInfo'
 import DiretaPai from './components/comunicacao/diretaPai'
 import IndiretaPai from './components/comunicacao/indiretaPai'
-
-
+import Input from './components/formulario/input'
+import Contador from './components/contador/contador'
+import Megasena from './components/megasena/megasena'
 
 export default () => 
         <div> 
             <h1>Fundamento React </h1>
             <div className="cards">
+
+                <Card titulo="Contador" color="#119">
+                    <Megasena  />
+                </Card>
+               
+                <Card titulo="Contador" color="#9FA">
+                    <Contador valorInicial={0} passo={3}  />
+                </Card>
+                
+                <Card titulo="Componente controlado" color="#E65A">
+                    <Input />
+                </Card>
 
                 <Card titulo="Comunicação indireta" color="#A1A">
                     <IndiretaPai />
